@@ -1,0 +1,23 @@
+{
+  "name": "sssf-websockets",
+  "version": "1.0.0",
+  "description": "Server-side scripting frameworks week 4, Websockets-task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennaturunen/SSSF-Websockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennaturunen/SSSF-Websockets/issues"
+  },
+  "homepage": "https://github.com/jennaturunen/SSSF-Websockets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}

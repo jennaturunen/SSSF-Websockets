@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>Start by selecting the room you want to enter</h3>
+    <div id="rooms-container">
+      <button class="room">Breakfest</button>
+      <button class="room">Lunch</button>
+      <button class="room">Snacks</button>
+      <button class="room">Dinner</button>
+    </div>
+    <p id="selected-room"></p>
+    <ul id="messages"></ul>
+    <form id="send-msg-form" action="">
+      <input id="username" placeholder="Type your username" />
+      <input id="message" autocomplete="off" placeholder="Say something!" />
+      <button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
